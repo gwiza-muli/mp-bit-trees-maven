@@ -4,8 +4,8 @@ public class BitTreeLeaf implements BitTreeNode{
   
   public String value;
 
-  public BitTreeLeaf(){
-    this.value = null;
+  public BitTreeLeaf(String value){
+    this.value = value;
   }
 
     /**

@@ -48,5 +48,4 @@ public class BitTreeInteriorNode implements BitTreeNode{
     this.right = rightNode;
   }
 
-
 }
