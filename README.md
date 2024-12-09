@@ -9,7 +9,7 @@ A mini-project exploring bit trees (a form of binary tree) and their use in tran
 
 **Acknowledgements**
 
-*
+* Mitch paiva for helping me out with main class.
 *
 *
 
