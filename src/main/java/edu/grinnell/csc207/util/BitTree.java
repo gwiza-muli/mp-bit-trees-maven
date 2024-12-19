@@ -42,7 +42,7 @@ public class BitTree {
   // +---------------+
 
   public void bitChecker(String bits) {
-    if (bits.length() != height) {
+    if (bits.length() < 0 || bits.length() > height) {
       throw new IndexOutOfBoundsException("bits length is not 0<=length<=6");
     }
     for (char ch : bits.toCharArray()) { // if this doesn't work just use a regular for loop.
