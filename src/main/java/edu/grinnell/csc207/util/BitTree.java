@@ -34,7 +34,7 @@ public class BitTree {
    */
   public BitTree(int n) {
     this.root = new BitTreeInteriorNode();
-    this.height = height;
+    this.height = n;
   } // BitTree(int)
 
   // +---------------+-----------------------------------------------
@@ -46,7 +46,7 @@ public class BitTree {
       throw new IndexOutOfBoundsException("bits length is not 0<=length<=6");
     }
     for (char ch : bits.toCharArray()) { // if this doesn't work just use a regular for loop.
-      if (ch != 0 && ch != '1') {
+      if (ch != '0' && ch != '1') {
         throw new IllegalArgumentException("bit is not 0 or 1");
       }
     }
