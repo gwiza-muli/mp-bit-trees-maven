@@ -1,5 +1,10 @@
 package edu.grinnell.csc207.util;
 
+/**
+ * creates a bit tree leaf.Implements 
+ * the BitTreeNode interface.
+ * @author Sheilla Muligande
+ */
 public class BitTreeLeaf implements BitTreeNode{
   
   public String value;

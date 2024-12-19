@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.io.IOException;
 
 /**
- *
+ * A class that converts between ASCII, Braille, & Unicoe.
  *
  * @author Sheilla Muligande
  * @author Samuel A. Rebelsky

@@ -1,5 +1,10 @@
 package edu.grinnell.csc207.util;
 
+/**
+ * Creates a bit tree interior node. Implements 
+ * the BitTreeNode interface.
+ * @author Sheilla Muligande
+ */
 public class BitTreeInteriorNode implements BitTreeNode{
 
   //Fields//

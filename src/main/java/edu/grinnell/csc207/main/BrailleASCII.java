@@ -5,7 +5,8 @@ import java.io.PrintWriter;
 import edu.grinnell.csc207.util.BrailleAsciiTables;
 
 /**
- *
+ *takes two command line parameters, the target character
+ et and the source characters, and translates the text.
  */
 public class BrailleASCII {
   // +------+--------------------------------------------------------

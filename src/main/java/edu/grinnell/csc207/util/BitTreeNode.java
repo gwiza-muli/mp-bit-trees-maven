@@ -1,5 +1,9 @@
 package edu.grinnell.csc207.util;
 
+/**
+ * an interface for bit tree node. Will be implemented
+ * by both BitTreeInteriorNode and BitTreeLeaf.
+ */
 public interface BitTreeNode {
   
   //////////////Fields///////////
